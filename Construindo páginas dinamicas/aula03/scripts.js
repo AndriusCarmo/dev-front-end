@@ -77,6 +77,10 @@ function adicionarItem(evento) {
 
     containerItemLista.appendChild(containerNomeDoItem);
     containerItemLista.appendChild(containerBotoes);
+
+    const itemData= document.createElement("p");
+    itemData.innerText = `${new Date().toLocaleDateString("pt-BR", { weekday: "long" })} (${new Date().toLocaleDateString()}) às ${new Date().toLocaleTimeString()}`;
+    
     itemDaLista.appendChild(containerItemLista);
     listaDeCompras.appendChild(itemDaLista)
 }
