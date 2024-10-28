@@ -80,7 +80,10 @@ function adicionarItem(evento) {
 
     const itemData= document.createElement("p");
     itemData.innerText = `${new Date().toLocaleDateString("pt-BR", { weekday: "long" })} (${new Date().toLocaleDateString()}) às ${new Date().toLocaleTimeString()}`;
-    
+    itemData.classList.add("texto-data");
+
     itemDaLista.appendChild(containerItemLista);
-    listaDeCompras.appendChild(itemDaLista)
+    itemDaLista.appendChild(itemData);
+    listaDeCompras.appendChild(itemDaLista);
+    
 }
