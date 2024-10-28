@@ -1,0 +1,35 @@
+:root{
+    --cor-de-fundo:white;
+    --cor-do-botao:#9353FF;
+}
+
+main{
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.texto{
+    display: block;
+    padding: 7px 15px 7px 15px;
+    margin: auto;
+}
+.botao{
+    display: block;
+    background-color: var(--cor-do-botao);
+    padding: 9px 18px 9px 18px;
+    margin: 20px auto;
+    border: none;
+    color: var(--cor-de-fundo);
+}
+div{
+    width: 729px;
+    padding: 40px;
+    border: 2px solid black;
+    margin: auto;
+}

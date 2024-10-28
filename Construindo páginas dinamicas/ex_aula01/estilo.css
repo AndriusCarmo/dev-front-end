@@ -1,0 +1,28 @@
+:root{
+    --cor-do-botao: #8a2be2;
+
+}
+body{
+    background-color: black;
+}
+main{
+    margin: auto;
+    max-width: 400px;
+    background-color: grey;
+    margin-top: 400px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+.botao{
+    text-align: center;
+    background-color: var(--cor-do-botao);
+    color: white;
+    border-radius: 20px;
+   
+    
+    height: 100px;
+    width: 300px;
+    border: 2px solid var(--cor-do-botao);
+}
