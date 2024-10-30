@@ -10,10 +10,21 @@
     display: none;
 }
 
+.rodape__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    /* ou  flex-flow: column wrap ;*/
+
+}
+
 @media (min-width: 834px) {
 
     .cabecalho__pesquisar__item {
         display: block;
     }
-
+    .rodape__container{
+        justify-content: space-between;
+    }
 }
+
